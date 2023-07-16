@@ -1,0 +1,389 @@
+/* COMMON CSS STARTS HERE====================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+:root {
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primaryFont);
+    background-color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6,span,paragraph,ol,ul {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* COMMON CSS ENDS HERE======================================================================================== */
+
+
+/* WHITE FOOTER STARTS HERE */
+
+
+/* *DESIGN ONLY FOR PC,TABLET */
+footer {
+    background-color: #F1F3F4;
+}
+footer #footerTop .firstDiv {
+    margin-top: 70px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid rgba(37, 19, 19, 0.16);
+    text-align: left;
+}
+footer #footerTop .firstDiv .textPart {
+    padding: 0;
+}
+footer #footerTop .firstDiv .textPart h2 {
+    color: var(--text-color, #11161E);
+    font-family: var(--primaryFont);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 127.778% */
+}
+footer #footerTop .firstDiv .textPart p {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 6px;
+    width: 488px;
+}
+footer #footerTop .firstDiv .inputPart {
+    padding: 0;
+    text-align: right;
+    margin: auto;
+}
+footer #footerTop .firstDiv .inputPart input {
+    width: 300px;
+    height: 58px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+footer #footerTop .firstDiv .inputPart button {
+    padding: 15px 30px;
+    margin-left: -5px;
+    border: none;
+    outline: none;
+    background-color: #FF6F61;
+    color: var(--comon-colot, #FFF);
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+footer #footerTop .secondDiv {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+footer #footerTop .secondDiv .firstDiv {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+footer #footerTop .secondDiv .firstDiv img {
+    width: 120px;
+    height: 52px;
+}
+footer #footerTop .secondDiv .firstDiv p {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+footer #footerTop .secondDiv .firstDiv ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+footer #footerTop .secondDiv .firstDiv ul li a {
+    font-size: 24px;
+    color: #444444;
+    transition: 0.3s ease;
+}
+footer #footerTop .secondDiv .firstDiv ul li:hover a {
+    color: #FF6F61;
+}
+footer #footerTop .secondDiv .fourthDiv,
+footer #footerTop .secondDiv .thirdDiv,
+footer #footerTop .secondDiv .secondDiv {
+    margin: 0;
+}
+footer #footerTop .secondDiv .fifthDiv h2,
+footer #footerTop .secondDiv .fourthDiv h2,
+footer #footerTop .secondDiv .thirdDiv h2,
+footer #footerTop .secondDiv .secondDiv h2 {
+    color: var(--text-color, #11161E);
+    font-family: var(--primaryFont);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+footer #footerTop .secondDiv .fourthDiv ul li a,
+footer #footerTop .secondDiv .thirdDiv ul li a,
+footer #footerTop .secondDiv .secondDiv ul li a {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    transition: 0.2s ease;
+}
+footer #footerTop .secondDiv .fourthDiv ul li:hover a,
+footer #footerTop .secondDiv .thirdDiv ul li:hover a,
+footer #footerTop .secondDiv .secondDiv ul li:hover a {
+    color: #FF6F61;
+}
+footer #footerTop .secondDiv .fifthDiv a .icon,
+footer #footerTop .secondDiv .fifthDiv address .icon {
+    font-size: 24px;
+    margin: auto;
+    color: #FF6F61;
+}
+footer #footerTop .secondDiv .fifthDiv a .text,
+footer #footerTop .secondDiv .fifthDiv address .text {
+    padding: 0;
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+footer #footerTop .secondDiv .fifthDiv a.last {
+    margin-left: 35px;
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+#footerBottom {
+    border-top: 1px solid rgba(37, 19, 19, 0.16);
+}
+#footerBottom .textPart {
+    text-align: left;
+}
+#footerBottom .textPart p {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 15px 0;
+}
+#footerBottom .imgPart {
+    text-align: right;
+}
+#footerBottom .imgPart img {
+    margin: 15px 0;
+}
+/* *DESIGN ONLY FOR PC,TABLET */
+
+/* *DESIGN ONLY FOR MOBILE */
+footer #footerTopSm .firstDivSm {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+footer #footerTopSm .firstDivSm .textPart {
+    padding: 0;
+}
+footer #footerTopSm .firstDivSm .textPart h2 {
+    color: var(--text-color, #11161E);
+    font-family: var(--primaryFont);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+}
+footer #footerTopSm .firstDivSm .textPart p {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+}
+footer #footerTopSm .firstDivSm .inputPart {
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+footer #footerTopSm .firstDivSm .inputPart input {
+    width: 300px;
+    height: 58px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+footer #footerTopSm .firstDivSm .inputPart button {
+    padding: 15px 30px;
+    margin-left: -5px;
+    border: none;
+    outline: none;
+    background-color: #FF6F61;
+    color: var(--comon-colot, #FFF);
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 10px;
+}
+footer #footerTopSm .secondDivSm {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+footer #footerTopSm .secondDivSm .firstDiv {
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-align: center;
+}
+footer #footerTopSm .secondDivSm .firstDiv img {
+    width: 120px;
+    height: 52px;
+}
+footer #footerTopSm .secondDivSm .firstDiv p {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+footer #footerTopSm .secondDivSm .firstDiv ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+footer #footerTopSm .secondDivSm .firstDiv ul li a {
+    font-size: 24px;
+    color: #444444;
+    transition: 0.3s ease;
+}
+footer #footerTopSm .secondDivSm .firstDiv ul li:hover a {
+    color: #FF6F61;
+}
+footer #footerTopSm .secondDivSm .fourthDiv,
+footer #footerTopSm .secondDivSm .thirdDiv,
+footer #footerTopSm .secondDivSm .secondDiv {
+    margin: 0;
+}
+footer #footerTopSm .secondDivSm .thirdDiv {
+    text-align: right;
+}
+footer #footerTopSm .secondDivSm .fifthDiv h2,
+footer #footerTopSm .secondDivSm .fourthDiv h2,
+footer #footerTopSm .secondDivSm .thirdDiv h2,
+footer #footerTopSm .secondDivSm .secondDiv h2 {
+    color: var(--text-color, #11161E);
+    font-family: var(--primaryFont);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+footer #footerTopSm .secondDivSm .fourthDiv ul li a,
+footer #footerTopSm .secondDivSm .thirdDiv ul li a,
+footer #footerTopSm .secondDivSm .secondDiv ul li a {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    transition: 0.2s ease;
+}
+footer #footerTopSm .secondDivSm .fourthDiv ul li:hover a,
+footer #footerTopSm .secondDivSm .thirdDiv ul li:hover a,
+footer #footerTopSm .secondDivSm .secondDiv ul li:hover a {
+    color: #FF6F61;
+}
+footer #footerTopSm .secondDivSm .fifthDiv {
+    text-align: center;
+}
+footer #footerTopSm .secondDivSm .fifthDiv a .icon,
+footer #footerTopSm .secondDivSm .fifthDiv address .icon {
+    font-size: 24px;
+    margin: auto;
+    color: #FF6F61;
+}
+footer #footerTopSm .secondDivSm .fifthDiv a .text,
+footer #footerTopSm .secondDivSm .fifthDiv address .text {
+    padding: 0;
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+footer #footerTopSm .secondDivSm .fifthDiv a.last {
+    margin-left: 8px;
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+#footerBottomSm {
+    border-top: 1px solid rgba(37, 19, 19, 0.16);
+}
+#footerBottomSm .textPartSm {
+    text-align: center;
+}
+#footerBottomSm .textPartSm p {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 15px 0;
+}
+#footerBottomSm .textPartSm p span {
+    color: #FF6F61;
+}
+#footerBottomSm .imgPartSm {
+    text-align: center;
+}
+#footerBottomSm .imgPartSm img {
+    margin: 15px 0;
+    width: 150px;
+}
+/* *DESIGN ONLY FOR MOBILE */
+/* WHITE FOOTER ENDS HERE */
